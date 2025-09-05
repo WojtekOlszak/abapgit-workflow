@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SIA6" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SIA6>
+    <MAIN_OBJECT>
+     <NAME>ZIAM_KX_APP_EXT</NAME>
+     <TYPE>SIA6</TYPE>
+     <DESCRIPTION>IAM Kinaxis app</DESCRIPTION>
+     <RESPONSIBLE>CB9980000070</RESPONSIBLE>
+     <MASTER_LANGUAGE>EN</MASTER_LANGUAGE>
+     <MASTER_SYSTEM>Z4G</MASTER_SYSTEM>
+     <PACKAGE_REF>
+      <PACKAGE_NAME>ZABAPGIT_WORKFLOWS2</PACKAGE_NAME>
+     </PACKAGE_REF>
+     <ABAP_LANGU_VERSION>5</ABAP_LANGU_VERSION>
+    </MAIN_OBJECT>
+    <APP_ID>ZIAM_KX_APP_EXT</APP_ID>
+    <APP_TYPE>EXT</APP_TYPE>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+    <SERVICE>
+     <item>
+      <REL_NAME>ZUI_KX_BILLOFMATERIAL_V2           0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZIAM_KX_APP_EXT</APP_ID>
+      <SRVC_NAME>14CD658516F672ABE7A622086BC6E2</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>Bill of Material Service</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+     <item>
+      <REL_NAME>ZUI_KX_BILLOFMATSALES_V2           0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZIAM_KX_APP_EXT</APP_ID>
+      <SRVC_NAME>77FCE7E53D3868716FAA53E9FC6613</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>Bill of Material Sales - Service Binding</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+     <item>
+      <REL_NAME>ZUI_KX_BUYERCODE_V2                0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZIAM_KX_APP_EXT</APP_ID>
+      <SRVC_NAME>CEA7C2AB18CF0AC3F81F12CE81373E</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>BuyerCode Service</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+     <item>
+      <REL_NAME>ZUI_KX_CUSTOMER_V2                 0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZIAM_KX_APP_EXT</APP_ID>
+      <SRVC_NAME>8E6CB0C4793B18043F0F5C381662F7</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>Customer Service</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+     <item>
+      <REL_NAME>ZUI_KX_DELIVERIES_V2               0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZIAM_KX_APP_EXT</APP_ID>
+      <SRVC_NAME>532F2D93803907519723C13FDB63FE</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>Delivery Service</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+     <item>
+      <REL_NAME>ZUI_KX_INFORECPARTSRC_V2           0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZIAM_KX_APP_EXT</APP_ID>
+      <SRVC_NAME>E72914A3C140E8C119499201AB371A</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>InfoRecord PartSource - Service Binding</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+     <item>
+      <REL_NAME>ZUI_KX_MATERIALSTOCK_V2            0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZIAM_KX_APP_EXT</APP_ID>
+      <SRVC_NAME>5DB6D36E7D017721CD90E69E9CDAB2</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>MaterialStock - Service Binding</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+     <item>
+      <REL_NAME>ZUI_KX_ODATA_V2                    0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZIAM_KX_APP_EXT</APP_ID>
+      <SRVC_NAME>B6C48446DF7E844F72FDF7000CB8DE</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>Kinaxis Odata Services</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+     <item>
+      <REL_NAME>ZUI_KX_PARTUOM_V2                  0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZIAM_KX_APP_EXT</APP_ID>
+      <SRVC_NAME>C23C2DAD7B2CE21B2F892C0D29EDAC</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>PartUOM Service</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+     <item>
+      <REL_NAME>ZUI_KX_PLANNERCODE_V2              0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZIAM_KX_APP_EXT</APP_ID>
+      <SRVC_NAME>1BEF475DCFB2FFAE94357537CCF0A1</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>PlannerCode Service</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+     <item>
+      <REL_NAME>ZUI_KX_POCONFIRMATIONS_V2          0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZIAM_KX_APP_EXT</APP_ID>
+      <SRVC_NAME>ADCC7E531649DF57276A0551BF082B</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>POConfirmation Service</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+     <item>
+      <REL_NAME>ZUI_KX_PRODUCTIONORDERS_V2         0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZIAM_KX_APP_EXT</APP_ID>
+      <SRVC_NAME>993A77D5236124252E73C7ECB5A229</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>ProductionOrder Service</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+     <item>
+      <REL_NAME>ZUI_KX_PRODUCTPLANTPART_V2         0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZIAM_KX_APP_EXT</APP_ID>
+      <SRVC_NAME>268791DA1998552135EF3A8BB8A961</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>ProductPlant Part Service</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+     <item>
+      <REL_NAME>ZUI_KX_PRODVERPARTSRC_V2           0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZIAM_KX_APP_EXT</APP_ID>
+      <SRVC_NAME>55FCF482AEDB53118F06ED81350DB4</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>ProductVersion PartSource - Service Binding</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+     <item>
+      <REL_NAME>ZUI_KX_PURCHASEORDERS_V2           0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZIAM_KX_APP_EXT</APP_ID>
+      <SRVC_NAME>DAA44C04F906E6C621996C8A9A477F</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>Purchase order Service</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+     <item>
+      <REL_NAME>ZUI_KX_PURREQUISITIONS_V2          0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZIAM_KX_APP_EXT</APP_ID>
+      <SRVC_NAME>40E42B3A9B06245731DD66E7CA7BEA</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>Purchase  Requisition Service</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+     <item>
+      <REL_NAME>ZUI_KX_QUOTAPARTSOURCE_V2          0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZIAM_KX_APP_EXT</APP_ID>
+      <SRVC_NAME>3EA066E85F260A8505804A013902EB</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>Quota PartSource - Service Binding</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+     <item>
+      <REL_NAME>ZUI_KX_SALESORDERS_V2              0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZIAM_KX_APP_EXT</APP_ID>
+      <SRVC_NAME>6D45921A91FF9EC7874BDACA27D73D</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>SalesOrder Service</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+     <item>
+      <REL_NAME>ZUI_KX_SUPPLIERS_V2                0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZIAM_KX_APP_EXT</APP_ID>
+      <SRVC_NAME>C41AAFE6E136B81E9A210EF0A593CF</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>Supplier Service</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+     <item>
+      <REL_NAME>ZUI_KX_UNITOFMEASURE_V2            0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZIAM_KX_APP_EXT</APP_ID>
+      <SRVC_NAME>DA8E702A2B453838439422E404D301</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>UnitOfMeasure Service</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+    </SERVICE>
+    <PUBLISH_STATUS>p</PUBLISH_STATUS>
+   </SIA6>
+  </asx:values>
+ </asx:abap>
+</abapGit>
