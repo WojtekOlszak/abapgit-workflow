@@ -11,13 +11,13 @@
 
 define view entity ZI_ProdVersionPartSource
   as select from    I_ProductionVersion          as _ProdVer
-    inner join      I_ProductPlantSupplyPlanning as _SupPlan    on _ProdVer.Material =  _SupPlan.Product
-                                                                and _ProdVer.Plant = _SupPlan.Plant
+    inner join      I_ProductPlantSupplyPlanning as _SupPlan    on  _ProdVer.Material = _SupPlan.Product
+                                                                and _ProdVer.Plant    = _SupPlan.Plant
     inner join      I_Plant                      as _Plant      on _ProdVer.Plant = _Plant.Plant
     left outer join I_ProductValuationBasic      as _ProductVal on  _ProdVer.Material = _ProductVal.Product
-                                                                and _ProdVer.Plant   = _ProductVal.ValuationArea
-   left outer join I_MatlProcurementProfile     as _Prfl       on  _SupPlan.Plant              = _Prfl.Plant
-                                                                and _SupPlan.ProcurementSubType = _Prfl.MaterialProcurementProfile                                                                
+                                                                and _ProdVer.Plant    = _ProductVal.ValuationArea
+    left outer join I_MatlProcurementProfile     as _Prfl       on  _SupPlan.Plant              = _Prfl.Plant
+                                                                and _SupPlan.ProcurementSubType = _Prfl.MaterialProcurementProfile
 
 {
   key _ProdVer.Material                       as Material,
@@ -61,5 +61,6 @@ define view entity ZI_ProdVersionPartSource
       @Semantics.amount.currencyCode: 'Currency'
       _ProductVal.StandardPrice               as StandardPrice,
       _ProductVal.PriceUnitQty                as PriceUnitQty,
-      _Prfl.SupplyingOrProductionPlant        as SupplyingOrProductionPlant
+      
+      _Prfl.SupplyingOrProductionPlant         as SupplyingOrProductionPlant
 }
