@@ -2,9 +2,7 @@
 "BASEINFO":
 {
 "FROM":
-[
-"ZI_PLANNEDORDERS"
-],
+[],
 "ASSOCIATED":
 [],
 "BASE":
